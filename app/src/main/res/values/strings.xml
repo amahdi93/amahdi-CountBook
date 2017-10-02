@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="counterName">Counter Name</string>
+    <string name="app_name">amahdi-CountBook</string>
+    <string name="save">Save</string>
+    <string name="clear">Delete All</string>
+    <string name="increment">Increment</string>
+    <string name="decrement">Decrement</string>
+    <string name="resetCounter">Reset Counter</string>
+    <string name="deleteCounter">Delete Counter</string>
+    <string name="addCounter">Add Counter</string>
+    <string name="initialValue">Initial Value</string>
+    <string name="initialNumber">Initial Number</string>
+    <string name="comments">Comments</string>
+
+
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ListView
+        android:id="@+id/entryCounter"
+        android:layout_width="match_parent"
+        android:layout_height="121dp"
+        android:scrollbars="none|vertical"
+        android:layout_weight="0.96" />
+
+    <Button
+        android:id="@+id/decrement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="-1" />
+
+    <Button
+        android:id="@+id/increment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+1" />
+
+    <Button
+        android:id="@+id/resetCounter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reset" />
+
+    <Button
+        android:id="@+id/deleteCounter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete Counter" />
+</LinearLayout>
